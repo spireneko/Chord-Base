@@ -1,0 +1,248 @@
+[gd_scene format=3 uid="uid://4m2lfm8qut6j"]
+
+[node name="SongsList" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Songs" type="ScrollContainer" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/Songs"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Song" type="PanelContainer" parent="VBoxContainer/Songs/VBoxContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/Songs/VBoxContainer/Song"]
+layout_mode = 2
+
+[node name="Name" type="Label" parent="VBoxContainer/Songs/VBoxContainer/Song/VBoxContainer"]
+layout_mode = 2
+text = "Фантом"
+
+[node name="Artist" type="Label" parent="VBoxContainer/Songs/VBoxContainer/Song/VBoxContainer"]
+layout_mode = 2
+text = "Чиж & Co"
+
+[node name="Button" type="Button" parent="VBoxContainer/Songs/VBoxContainer/Song"]
+layout_mode = 2
+
+[node name="Song2" type="PanelContainer" parent="VBoxContainer/Songs/VBoxContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/Songs/VBoxContainer/Song2"]
+layout_mode = 2
+
+[node name="Name" type="Label" parent="VBoxContainer/Songs/VBoxContainer/Song2/VBoxContainer"]
+layout_mode = 2
+text = "Фантом"
+
+[node name="Artist" type="Label" parent="VBoxContainer/Songs/VBoxContainer/Song2/VBoxContainer"]
+layout_mode = 2
+text = "Чиж & Co"
+
+[node name="Button" type="Button" parent="VBoxContainer/Songs/VBoxContainer/Song2"]
+layout_mode = 2
+
+[node name="Song3" type="PanelContainer" parent="VBoxContainer/Songs/VBoxContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/Songs/VBoxContainer/Song3"]
+layout_mode = 2
+
+[node name="Name" type="Label" parent="VBoxContainer/Songs/VBoxContainer/Song3/VBoxContainer"]
+layout_mode = 2
+text = "Фантом"
+
+[node name="Artist" type="Label" parent="VBoxContainer/Songs/VBoxContainer/Song3/VBoxContainer"]
+layout_mode = 2
+text = "Чиж & Co"
+
+[node name="Button" type="Button" parent="VBoxContainer/Songs/VBoxContainer/Song3"]
+layout_mode = 2
+
+[node name="Song4" type="PanelContainer" parent="VBoxContainer/Songs/VBoxContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/Songs/VBoxContainer/Song4"]
+layout_mode = 2
+
+[node name="Name" type="Label" parent="VBoxContainer/Songs/VBoxContainer/Song4/VBoxContainer"]
+layout_mode = 2
+text = "Фантом"
+
+[node name="Artist" type="Label" parent="VBoxContainer/Songs/VBoxContainer/Song4/VBoxContainer"]
+layout_mode = 2
+text = "Чиж & Co"
+
+[node name="Button" type="Button" parent="VBoxContainer/Songs/VBoxContainer/Song4"]
+layout_mode = 2
+
+[node name="Song5" type="PanelContainer" parent="VBoxContainer/Songs/VBoxContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/Songs/VBoxContainer/Song5"]
+layout_mode = 2
+
+[node name="Name" type="Label" parent="VBoxContainer/Songs/VBoxContainer/Song5/VBoxContainer"]
+layout_mode = 2
+text = "Фантом"
+
+[node name="Artist" type="Label" parent="VBoxContainer/Songs/VBoxContainer/Song5/VBoxContainer"]
+layout_mode = 2
+text = "Чиж & Co"
+
+[node name="Button" type="Button" parent="VBoxContainer/Songs/VBoxContainer/Song5"]
+layout_mode = 2
+
+[node name="Song6" type="PanelContainer" parent="VBoxContainer/Songs/VBoxContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/Songs/VBoxContainer/Song6"]
+layout_mode = 2
+
+[node name="Name" type="Label" parent="VBoxContainer/Songs/VBoxContainer/Song6/VBoxContainer"]
+layout_mode = 2
+text = "Фантом"
+
+[node name="Artist" type="Label" parent="VBoxContainer/Songs/VBoxContainer/Song6/VBoxContainer"]
+layout_mode = 2
+text = "Чиж & Co"
+
+[node name="Button" type="Button" parent="VBoxContainer/Songs/VBoxContainer/Song6"]
+layout_mode = 2
+
+[node name="Song7" type="PanelContainer" parent="VBoxContainer/Songs/VBoxContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/Songs/VBoxContainer/Song7"]
+layout_mode = 2
+
+[node name="Name" type="Label" parent="VBoxContainer/Songs/VBoxContainer/Song7/VBoxContainer"]
+layout_mode = 2
+text = "Фантом"
+
+[node name="Artist" type="Label" parent="VBoxContainer/Songs/VBoxContainer/Song7/VBoxContainer"]
+layout_mode = 2
+text = "Чиж & Co"
+
+[node name="Button" type="Button" parent="VBoxContainer/Songs/VBoxContainer/Song7"]
+layout_mode = 2
+
+[node name="Song8" type="PanelContainer" parent="VBoxContainer/Songs/VBoxContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/Songs/VBoxContainer/Song8"]
+layout_mode = 2
+
+[node name="Name" type="Label" parent="VBoxContainer/Songs/VBoxContainer/Song8/VBoxContainer"]
+layout_mode = 2
+text = "Фантом"
+
+[node name="Artist" type="Label" parent="VBoxContainer/Songs/VBoxContainer/Song8/VBoxContainer"]
+layout_mode = 2
+text = "Чиж & Co"
+
+[node name="Button" type="Button" parent="VBoxContainer/Songs/VBoxContainer/Song8"]
+layout_mode = 2
+
+[node name="Song9" type="PanelContainer" parent="VBoxContainer/Songs/VBoxContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/Songs/VBoxContainer/Song9"]
+layout_mode = 2
+
+[node name="Name" type="Label" parent="VBoxContainer/Songs/VBoxContainer/Song9/VBoxContainer"]
+layout_mode = 2
+text = "Фантом"
+
+[node name="Artist" type="Label" parent="VBoxContainer/Songs/VBoxContainer/Song9/VBoxContainer"]
+layout_mode = 2
+text = "Чиж & Co"
+
+[node name="Button" type="Button" parent="VBoxContainer/Songs/VBoxContainer/Song9"]
+layout_mode = 2
+
+[node name="Song10" type="PanelContainer" parent="VBoxContainer/Songs/VBoxContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/Songs/VBoxContainer/Song10"]
+layout_mode = 2
+
+[node name="Name" type="Label" parent="VBoxContainer/Songs/VBoxContainer/Song10/VBoxContainer"]
+layout_mode = 2
+text = "Фантом"
+
+[node name="Artist" type="Label" parent="VBoxContainer/Songs/VBoxContainer/Song10/VBoxContainer"]
+layout_mode = 2
+text = "Чиж & Co"
+
+[node name="Button" type="Button" parent="VBoxContainer/Songs/VBoxContainer/Song10"]
+layout_mode = 2
+
+[node name="Song11" type="PanelContainer" parent="VBoxContainer/Songs/VBoxContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/Songs/VBoxContainer/Song11"]
+layout_mode = 2
+
+[node name="Name" type="Label" parent="VBoxContainer/Songs/VBoxContainer/Song11/VBoxContainer"]
+layout_mode = 2
+text = "Фантом"
+
+[node name="Artist" type="Label" parent="VBoxContainer/Songs/VBoxContainer/Song11/VBoxContainer"]
+layout_mode = 2
+text = "Чиж & Co"
+
+[node name="Button" type="Button" parent="VBoxContainer/Songs/VBoxContainer/Song11"]
+layout_mode = 2
+
+[node name="Song12" type="PanelContainer" parent="VBoxContainer/Songs/VBoxContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/Songs/VBoxContainer/Song12"]
+layout_mode = 2
+
+[node name="Name" type="Label" parent="VBoxContainer/Songs/VBoxContainer/Song12/VBoxContainer"]
+layout_mode = 2
+text = "Фантом"
+
+[node name="Artist" type="Label" parent="VBoxContainer/Songs/VBoxContainer/Song12/VBoxContainer"]
+layout_mode = 2
+text = "Чиж & Co"
+
+[node name="Button" type="Button" parent="VBoxContainer/Songs/VBoxContainer/Song12"]
+layout_mode = 2
+
+[node name="Song13" type="PanelContainer" parent="VBoxContainer/Songs/VBoxContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/Songs/VBoxContainer/Song13"]
+layout_mode = 2
+
+[node name="Name" type="Label" parent="VBoxContainer/Songs/VBoxContainer/Song13/VBoxContainer"]
+layout_mode = 2
+text = "Фантом"
+
+[node name="Artist" type="Label" parent="VBoxContainer/Songs/VBoxContainer/Song13/VBoxContainer"]
+layout_mode = 2
+text = "Чиж & Co"
+
+[node name="Button" type="Button" parent="VBoxContainer/Songs/VBoxContainer/Song13"]
+layout_mode = 2
