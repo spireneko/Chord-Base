@@ -32,7 +32,7 @@ enabled=PackedStringArray("res://addons/godot-sqlite/plugin.cfg")
 [gui]
 
 theme/custom="res://resources/default_theme.tres"
-theme/custom_font="res://assets/fonts/Inter-VariableFont_opsz,wght.ttf"
+theme/custom_font="res://assets/fonts/BigBlueTermPlusNerdFontMono-Regular.ttf"
 
 [rendering]
 
