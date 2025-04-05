@@ -6,3 +6,4 @@ rust/target
 
 # Temporary files
 *.tmp
+~*
